@@ -6,6 +6,7 @@ export const Container = styled.div`
   margin: 0;
   top: 0;
   left: 0;
+  color: white;
   justify-content: center;
   background-color: transparent;
   overflow-y: auto;

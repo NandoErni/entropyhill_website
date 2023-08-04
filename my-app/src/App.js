@@ -13,17 +13,21 @@ function App() {
 
     const [selected, setSelected] = useState(0)
 
+    const pages = [
+        (<div><HomePage/></div>),
+        (<div><ShowsPage/></div>),
+        //(<div><MusicPage/></div>),
+        (<div><ContactPage/></div>),
+    ]
+
     return (
         <FullScreenContainer>
             <AwesomeSlider onTransitionStart={(page) => setSelected(page.nextIndex)}
                            bullets={false} selected={selected} fillParent={true}
                            animation="openAnimation">
-                <div><HomePage/></div>
-                <div><ShowsPage/></div>
-                <div><MusicPage/></div>
-                <div><ContactPage/></div>
+                {pages}
             </AwesomeSlider>
-            <Dots numberOfPages={4} currentPage={selected} onClickHandler={(page) => setSelected(page)}/>
+            <Dots numberOfPages={pages.length} currentPage={selected} onClickHandler={(page) => setSelected(page)}/>
         </FullScreenContainer>
 
     );
