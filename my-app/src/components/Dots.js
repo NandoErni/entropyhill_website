@@ -7,9 +7,7 @@ const DotsContainer = styled.div`
   z-index: 10;
   width: 100vw;
   bottom: 0;
-  left: 50%;
   margin: 20px;
-  transform: translateX(-5%);
 `
 
 const Dot = styled.div`

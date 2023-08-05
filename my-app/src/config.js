@@ -1,0 +1,1 @@
+export const BANDS_IN_TOWN_APP_ID = ""

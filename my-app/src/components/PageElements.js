@@ -13,10 +13,18 @@ export const Container = styled.div`
 `
 
 
-export const Title = styled.div`
+export const Title = styled.h1`
   text-align: center;
   padding-top: 100px;
   color: white;
-  font-size: 50px;
+  font-size: 3rem;
+  margin-bottom: 60px;
+`
+
+export const SubTitle = styled.div`
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  font-size: 1.5rem;
   margin-bottom: 60px;
 `
