@@ -6,6 +6,8 @@ const FullScreenContainer = styled.div`
   padding: 0;
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
+  position: relative;
 `
 
 export default FullScreenContainer

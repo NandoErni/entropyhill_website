@@ -19,6 +19,11 @@ function App() {
         //(<div><MusicPage/></div>),
         (<div><ContactPage/></div>),
     ]
+    function handleScroll(event) {
+        console.log(event)
+    }
+    window.addEventListener('scroll', handleScroll);
+
 
     return (
         <FullScreenContainer>

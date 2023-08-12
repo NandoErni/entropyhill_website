@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Card = styled.div`
   margin: 40px auto;
-  background: #404040;
+  background: #30303070;
   color: white;
   border-radius: 10px;
   padding: 20px;
@@ -15,7 +15,7 @@ export const Card = styled.div`
   -ms-transition: background-color 120ms linear;
   transition: background-color 120ms linear;
   &:hover {
-    background: #4a4a4a;
+    background: #4a4a4a70;
   }
 `
 

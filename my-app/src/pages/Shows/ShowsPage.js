@@ -2,6 +2,8 @@ import {Container, SubTitle, Title} from "../../components/PageElements";
 import ShowCard from "./ShowCard";
 import useShowFetcher from "../../hooks/UseShowFetcher"
 import {useEffect} from "react";
+import {FullScreenImg} from "../Home/Components";
+import image from "../../img/bandx/bandx_1.jpg";
 
 function ShowsPage() {
     const [shows, fetchShows] = useShowFetcher("EntropyHill")
@@ -14,21 +16,25 @@ function ShowsPage() {
     }, [])
 
     return(
-        <Container>
-            <Title>Upcoming Shows</Title>
+        <>
+            <FullScreenImg src={image}/>
+            <Container>
 
-            {shows.length > 0 ?
-                shows.map((entry, i) =>
-                    (
-                        <ShowCard datetime={new Date(entry["datetime"])}
-                                  venue={entry["venue"]["name"]}
-                                  location={entry["venue"]["city"]}
-                                  linkForMore={entry["url"].split("?")[0]}
-                                  key={i}/>
-                    )
-                ) : (<SubTitle>No Shows currently...</SubTitle>)
-            }
-        </Container>
+                <Title>Upcoming Shows</Title>
+
+                {shows.length > 0 ?
+                    shows.map((entry, i) =>
+                        (
+                            <ShowCard datetime={new Date(entry["datetime"])}
+                                      venue={entry["venue"]["name"]}
+                                      location={entry["venue"]["city"]}
+                                      linkForMore={entry["url"].split("?")[0]}
+                                      key={i}/>
+                        )
+                    ) : (<SubTitle>No Shows currently...</SubTitle>)
+                }
+            </Container>
+        </>
     )
 }
 
