@@ -5,9 +5,14 @@ const DotsContainer = styled.div`
   flex-direction: row;
   position: absolute;
   z-index: 10;
-  width: 100vw;
   bottom: 0;
   margin: 20px;
+  @media only screen and (max-width: 768px) {
+    /* For mobile: */
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-90%);
+  }
 `
 
 const Dot = styled.div`

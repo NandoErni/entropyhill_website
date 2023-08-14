@@ -25,6 +25,10 @@ export const SocialMediaContainer = styled.div`
   transform: translateX(-50%);
   display: flex;
   flex-direction: row;
+  @media only screen and (max-width: 768px) {
+    /* For mobile: */
+    bottom: 20%;
+  }
 `
 
 const SocialIconWrapper = styled.div`
