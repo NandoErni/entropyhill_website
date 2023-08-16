@@ -1,6 +1,7 @@
-import image from '../../img/bandx/bandx_3.jpg'
-import {FullScreenImg, CenteredMainTitle, SocialMediaContainer, FadeInContainer} from "./Components";
+import image from '../../img/bandx/bandx_4.jpg'
+import {CenteredMainTitle, FadeInContainer} from "./Components";
 import SocialMediaPanel from "../../components/SocialMediaPanel";
+import {FullScreenImg} from "../../components/PageElements";
 
 function HomePage() {
     return (

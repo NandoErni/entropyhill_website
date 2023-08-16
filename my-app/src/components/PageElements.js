@@ -51,3 +51,19 @@ export const SubTitle = styled.div`
   font-size: 1.5rem;
   margin-bottom: 60px;
 `
+
+
+export const FullScreenImg = styled.img`
+  
+  background-position: left;
+  background-size: inherit;
+  filter: brightness(50%);
+
+  @media only screen and (orientation: landscape) {
+    width: 100vw;
+  }
+
+  @media only screen and (orientation: portrait) {
+    height: 100vh;
+  }
+`

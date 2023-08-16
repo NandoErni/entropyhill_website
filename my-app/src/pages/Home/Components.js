@@ -1,14 +1,5 @@
 import styled from 'styled-components'
 
-export const FullScreenImg = styled.img`
-  height: 100%;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: brightness(50%);
-`
-
 export const CenteredMainTitle = styled.div`
   margin: 0;
   color: white;

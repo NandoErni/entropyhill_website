@@ -1,8 +1,7 @@
-import {Container, SubTitle, Title} from "../../components/PageElements";
+import {Container, FullScreenImg, SubTitle, Title} from "../../components/PageElements";
 import ShowCard from "./ShowCard";
 import useShowFetcher from "../../hooks/UseShowFetcher"
 import {useEffect} from "react";
-import {FullScreenImg} from "../Home/Components";
 import image from "../../img/bandx/bandx_1.jpg";
 
 function ShowsPage() {
