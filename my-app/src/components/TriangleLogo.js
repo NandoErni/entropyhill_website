@@ -9,7 +9,7 @@ import triangle_7 from '../img/triangle-logo/Triangle_8.png'
 import styled from 'styled-components'
 import { useEffect, useState, useRef } from 'react';
 
-function TriangleLogo() {
+function TriangleLogo({size}) {
     const [mousePos, setMousePos] = useState({});
     const triangleRef = useRef()
 
@@ -54,7 +54,7 @@ function TriangleLogo() {
         triangle_7,
     ]
     return (
-        <Container ref={triangleRef}>
+        <Container ref={triangleRef} size={size}>
             {triangles.map((image, index) =>
                 <MoveableTriangle image={image} moveMultiplyer={(1+index)/50} move={{x: xDir, y: yDir}}/>
             )}
@@ -73,7 +73,7 @@ function MoveableTriangle({image, moveMultiplyer, move}) {
 
 const Container = styled.div`
   position: relative;
-  height: 100vh;
+  height: ${p => p.size}vh;
   width: 100vw;
 `
 
@@ -82,7 +82,7 @@ const Image = styled.img`
   position: absolute;
   transform: translateX(-50%);
   max-width: 80%;
-  max-height: 60%;
+  max-height: 100%;
   
   @media only screen and (max-width: 768px) {
     /* For mobile: */
