@@ -3,7 +3,7 @@ export const BANDS_IN_TOWN_APP_ID = "01d637208fbf5f3be242f58ab29268be"
 export const LINKTREE_LINKS = [
     {
         label: "Website",
-        url: "https://entropyhill.com"
+        url: "/"
     },
     {
         label: "Konzert im Hotel Linde",
