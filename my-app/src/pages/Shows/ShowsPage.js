@@ -30,7 +30,7 @@ function ShowsPage() {
                                       linkForMore={entry["url"].split("?")[0]}
                                       key={i}/>
                         )
-                    ) : (<SubTitle>No Shows currently...</SubTitle>)
+                    ) : (<SubTitle>No upcoming Shows currently...</SubTitle>)
                 }
             </Container>
         </>

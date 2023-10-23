@@ -27,7 +27,7 @@ export const SocialMediaContainer = styled.div`
   flex-direction: row;
   @media only screen and (max-width: 768px) {
     /* For mobile: */
-    bottom: 20%;
+    bottom: 19%;
   }
 `
 
