@@ -3,12 +3,13 @@ import styled from "styled-components";
 import {FadeInContainer} from "../pages/Home/Components";
 
 
-function SocialMediaLink({url, seconds, isBig}) {
+function SocialMediaLink({url, seconds, isBig, network}) {
     const size = isBig ? '100px' : '50px'
     return (
         <FadeInContainer seconds={seconds}>
             <SocialIconWrapper>
-                <SocialIcon style={{margin: "0 10px", height: size, width: size}} url={url} fgColor="#ffffff"/>
+                <SocialIcon style={{margin: "0 10px", height: size, width: size}}
+                            network={network} url={url} fgColor="#ffffff" label="lol"/>
             </SocialIconWrapper>
         </FadeInContainer>
     )

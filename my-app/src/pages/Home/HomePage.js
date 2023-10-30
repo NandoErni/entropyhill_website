@@ -12,9 +12,9 @@ function HomePage() {
             <FadeInContainer>
                 <CenteredMainTitle><TriangleLogo size={50}/></CenteredMainTitle>
             </FadeInContainer>
-            <FadeInContainer seconds={2}>
-                <CenteredMainTitle>Entropy Hill</CenteredMainTitle>
-            </FadeInContainer>
+            {/*<FadeInContainer seconds={2}>*/}
+            {/*    <CenteredMainTitle>Entropy Hill</CenteredMainTitle>*/}
+            {/*</FadeInContainer>*/}
         </>
     )
 }

@@ -16,7 +16,7 @@ function App() {
     const pages = [
         (<div><HomePage/></div>),
         (<div><ShowsPage/></div>),
-        //(<div><MusicPage/></div>),
+        (<div><MusicPage/></div>),
         (<div><ContactPage/></div>),
     ]
     function handleScroll(event) {

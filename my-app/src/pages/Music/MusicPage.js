@@ -1,12 +1,27 @@
-import {Container, Title} from "../../components/PageElements";
+import {CenteredChildrenContainer, Container, FullScreenImg, Title} from "../../components/PageElements";
+import image from "../../img/bandx/bandx_2.jpg";
+import MusicCard from "./MusicCard";
+import {MUSIC_ENTRIES} from "../../config";
 
 function MusicPage() {
 
     return(
-        <Container>
-            <Title>Music</Title>
+        <>
+            <FullScreenImg src={image}/>
+            <Container>
+                <Title>Music</Title>
+                <CenteredChildrenContainer>
 
-        </Container>
+                    {MUSIC_ENTRIES.map((entry, i) => (
+                        <MusicCard title={entry.title}
+                                   coverImage={entry.coverImage}
+                                   links={entry.links}
+                                   key={i}/>
+                    ))}
+
+                </CenteredChildrenContainer>
+            </Container>
+        </>
     )
 }
 

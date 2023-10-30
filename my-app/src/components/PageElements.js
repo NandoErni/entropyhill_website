@@ -1,5 +1,12 @@
 import styled from "styled-components";
 
+
+export const CenteredChildrenContainer = styled.div`
+  text-align: center;
+  justify-content: center;
+  
+`
+
 export const Container = styled.div`
   height: 100vh;
   width: 100vw;
