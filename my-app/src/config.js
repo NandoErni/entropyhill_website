@@ -34,8 +34,8 @@ export const MUSIC_ENTRIES = [
         title: "Vibe",
         coverImage: vibeCover,
         links: {
-            spotify: "",
-            apple: "",
+            spotify: "https://open.spotify.com/album/5msywNUlsgVsfSGOgEeDYU",
+            apple: "https://music.apple.com/us/album/vibe-single/1713030118",
             deezer: "",
             tidal: ""
         }
