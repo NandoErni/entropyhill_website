@@ -56,7 +56,7 @@ function TriangleLogo({size}) {
     return (
         <Container ref={triangleRef} size={size}>
             {triangles.map((image, index) =>
-                <MoveableTriangle image={image} moveMultiplyer={(1+index)/50} move={{x: xDir, y: yDir}}/>
+                <MoveableTriangle image={image} moveMultiplyer={(1+index)/50} move={{x: xDir, y: yDir}} key={index}/>
             )}
         </Container>
     )

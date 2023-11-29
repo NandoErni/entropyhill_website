@@ -7,29 +7,20 @@ function SocialMediaLink({url, seconds, isBig, network}) {
     const size = isBig ? '100px' : '50px'
     return (
         <FadeInContainer seconds={seconds}>
-            <SocialIconWrapper>
-                <SocialIcon style={{margin: "0 10px", height: size, width: size}}
-                            network={network} url={url} fgColor="#ffffff" label="lol"/>
+            <SocialIconWrapper style={{margin: "10px"}}>
+                <SocialIcon style={{height: size, width: size}}
+                            network={network} url={url} fgColor="#ffffff" label="icon"/>
             </SocialIconWrapper>
         </FadeInContainer>
     )
 }
 
 export const SocialMediaContainer = styled.div`
-  color: white;
-  text-align: center;
+  margin-top: 50px;
   justify-content: center;
-  position: absolute;
-  width: 100%;
-  bottom: 10%;
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  @media only screen and (max-width: 768px) {
-    /* For mobile: */
-    bottom: 19%;
-  }
 `
 
 const SocialIconWrapper = styled.div`
@@ -37,6 +28,7 @@ const SocialIconWrapper = styled.div`
   &:hover {
     transform: scale(1.2);
   }
+  display: inline-block;
 `
 
 export default SocialMediaLink

@@ -36,6 +36,7 @@ export const MUSIC_ENTRIES = [
         links: {
             spotify: "https://open.spotify.com/album/5msywNUlsgVsfSGOgEeDYU",
             apple: "https://music.apple.com/us/album/vibe-single/1713030118",
+            soundcloud: "https://soundcloud.com/entropy-hill/vibe",
             deezer: "",
             tidal: ""
         }

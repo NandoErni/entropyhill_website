@@ -14,10 +14,10 @@ function App() {
     const [selected, setSelected] = useState(0)
 
     const pages = [
-        (<div><HomePage/></div>),
-        (<div><ShowsPage/></div>),
-        (<div><MusicPage/></div>),
-        (<div><ContactPage/></div>),
+        (<div key={"Home"}><HomePage/></div>),
+        (<div key={"Shows"}><ShowsPage/></div>),
+        (<div key={"Music"}><MusicPage/></div>),
+        (<div key={"Contact"}><ContactPage/></div>),
     ]
     function handleScroll(event) {
         console.log(event)

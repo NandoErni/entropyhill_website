@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  height: 100vh;
   width: 100vw;
+  min-height: 100vh;
+  overflow-y: auto;
   
   background: linear-gradient(-45deg, #F2271Eff, #FDAC0Eff, #FDAC0Eff, #F2271Eff);
   background-size: 150% 150%;

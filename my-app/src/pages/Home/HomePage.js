@@ -8,13 +8,22 @@ function HomePage() {
     return (
         <>
             <FullScreenImg src={image}/>
-            <SocialMediaPanel />
             <FadeInContainer>
                 <CenteredMainTitle><TriangleLogo size={50}/></CenteredMainTitle>
             </FadeInContainer>
             {/*<FadeInContainer seconds={2}>*/}
             {/*    <CenteredMainTitle>Entropy Hill</CenteredMainTitle>*/}
             {/*</FadeInContainer>*/}
+
+            <div style={{
+                position: "absolute",
+                bottom: "15vh",
+                left: "50%",
+                transform: "translate(-50%, -50%)",
+                width: "100vw"
+            }}>
+                <SocialMediaPanel />
+            </div>
         </>
     )
 }
