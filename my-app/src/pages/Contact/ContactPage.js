@@ -14,7 +14,7 @@ function ContactPage() {
                     <br/>
                     Nando Erni
                     <br/>
-                    nando.erni@outlook.de
+                    <a style={{color: "white"}} href="mailto:booking@entropyhill.com">booking@entropyhill.com</a>
                 </div>
 
                 <SocialMediaPanel isBig={true}/>

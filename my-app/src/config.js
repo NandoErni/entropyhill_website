@@ -24,6 +24,10 @@ export const LINKTREE_LINKS = [
         url: "https://www.instagram.com/entropy_hill/"
     },
     {
+        label: "Facebook",
+        url: "https://www.facebook.com/entropyhillband/"
+    },
+    {
         label: "MX3",
         url: "https://mx3.ch/entropyhill/"
     },
@@ -41,4 +45,31 @@ export const MUSIC_ENTRIES = [
             tidal: ""
         }
     }
+]
+
+export const SOCIAL_MEDIA_ACCOUNTS = [
+    {
+        network: "",
+        url: "https://www.instagram.com/entropy_hill",
+    },
+    {
+        network: "",
+        url: "https://www.facebook.com/entropyhillband/",
+    },
+    {
+        network: "",
+        url: "https://open.spotify.com/artist/4APfaKKTUYeoETKFP4HCTy",
+    },
+    {
+        network: "itunes",
+        url: "https://music.apple.com/artist/1713019741",
+    },
+    {
+        network: "",
+        url: "https://www.bandsintown.com/a/15505028-entropy-hill",
+    },
+    {
+        network: "",
+        url: "mailto:booking@entropyhill.com",
+    },
 ]
