@@ -12,8 +12,8 @@ function getEventsUrl(app_id, onlyUpcomingEvents) {
 function useShowFetcher(artistName) {
     const [shows, setShows] = useState([])
 
-    async function fetchShows() {
-        const eventsResponse = await fetch(getEventsUrl(BANDS_IN_TOWN_APP_ID, false))
+    async function fetchShows(pastShows = false) {
+        const eventsResponse = await fetch(getEventsUrl(BANDS_IN_TOWN_APP_ID, !pastShows))
         const events = await eventsResponse.json()
         setShows(events)
     }

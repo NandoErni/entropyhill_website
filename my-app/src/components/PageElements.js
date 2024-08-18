@@ -17,6 +17,7 @@ export const Container = styled.div`
   color: white;
   background-color: transparent;
   overflow-y: auto;
+
 `
 
 export const ColoredBackgroundContainer = styled.div`
@@ -71,5 +72,14 @@ export const FullScreenImg = styled.img`
 
   @media only screen and (orientation: portrait) {
     height: 100vh;
+  }
+`
+
+export const SpacerElement = styled.div`
+
+height: 10%;
+@media only screen and (max-width: 768px) {
+    /* For mobile: */
+    height: 25%;
   }
 `

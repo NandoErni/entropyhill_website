@@ -5,9 +5,10 @@ export const Card = styled.div`
   color: white;
   background: #30303070;
   padding: 20px;
-  height: 100px;
+  min-height: 100px;
   max-height: 600px;
-  width: 50%;
+  min-width: 50%;
+  max-width: 80%;
   cursor: pointer;
   box-shadow: 0 4px 80px 0 rgba(0, 0, 0, 0.8), 0 60px 200px 0 rgba(0, 0, 0, 0.8);
 
@@ -22,6 +23,12 @@ export const Card = styled.div`
 export const DateContainer = styled.div`
   font-size: 0.8rem;
   font-style: italic;
+`
+
+export const CallToActionContainer = styled.div`
+  font-size: 1rem;
+  font-style: italic;
+  color: #ffffffA0;
 `
 
 export const LocationContainer = styled.div`

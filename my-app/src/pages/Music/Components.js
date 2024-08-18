@@ -21,12 +21,19 @@ export const CardImage = styled.img`
   max-width: 70vw;
 `
 
+export const CardEmbeddedPlayer = styled.div`
+  max-height: 50vh;
+  max-width: 70vw;
+  min-width: 50vw;
+`
+
 export const CardContent = styled.div`
   padding: 10px;
 `
 
 export const SubtitleContainer = styled.div`
-  font-size: 0.9rem;
+  font-size: 1.1rem;
+  padding-bottom: 1em;
   margin-bottom: 15px;
 `
 

@@ -1,4 +1,4 @@
-import {CenteredChildrenContainer, Container, FullScreenImg, Title} from "../../components/PageElements";
+import {CenteredChildrenContainer, Container, FullScreenImg, SpacerElement, Title} from "../../components/PageElements";
 import image from "../../img/bandx/bandx_2.jpg";
 import MusicCard from "./MusicCard";
 import {MUSIC_ENTRIES} from "../../config";
@@ -10,7 +10,7 @@ function MusicPage() {
             <FullScreenImg src={image}/>
             <Container>
                 <Title>Music</Title>
-                <CenteredChildrenContainer style={{marginBottom: '20%'}}>
+                <CenteredChildrenContainer>
 
                     {MUSIC_ENTRIES.map((entry, i) => (
                         <MusicCard title={entry.title}
@@ -20,6 +20,7 @@ function MusicPage() {
                     ))}
 
                 </CenteredChildrenContainer>
+                <SpacerElement/>
             </Container>
         </>
     )

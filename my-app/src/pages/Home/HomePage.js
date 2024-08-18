@@ -15,6 +15,7 @@ function HomePage() {
             {/*    <CenteredMainTitle>Entropy Hill</CenteredMainTitle>*/}
             {/*</FadeInContainer>*/}
 
+            
             <div style={{
                 position: "absolute",
                 bottom: "15vh",
@@ -22,8 +23,10 @@ function HomePage() {
                 transform: "translate(-50%, -50%)",
                 width: "100vw"
             }}>
+                
                 <SocialMediaPanel />
             </div>
+
         </>
     )
 }

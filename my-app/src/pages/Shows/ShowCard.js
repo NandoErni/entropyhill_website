@@ -1,4 +1,4 @@
-import {Card, DateContainer, Link, LocationContainer, VenueContainer} from "./Components";
+import {Card, CallToActionContainer, DateContainer, Link, LocationContainer, VenueContainer} from "./Components";
 
 function ShowCard({datetime, venue, location, linkForMore}) {
     const options =
@@ -17,6 +17,10 @@ function ShowCard({datetime, venue, location, linkForMore}) {
                 <LocationContainer>
                     {location}
                 </LocationContainer>
+
+                <CallToActionContainer style={{marginTop: '40px'}}>
+                Click for details
+                </CallToActionContainer>
             </Link>
         </Card>
     )

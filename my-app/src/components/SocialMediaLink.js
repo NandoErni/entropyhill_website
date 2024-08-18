@@ -8,7 +8,7 @@ function SocialMediaLink({url, seconds, isBig, network}) {
     return (
         <FadeInContainer seconds={seconds}>
             <SocialIconWrapper style={{margin: "10px"}}>
-                <SocialIcon style={{height: size, width: size}}
+                <SocialIcon target="_blank"  style={{height: size, width: size}}
                             network={network} url={url} fgColor="#ffffff" label="icon"/>
             </SocialIconWrapper>
         </FadeInContainer>

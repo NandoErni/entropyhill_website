@@ -9,7 +9,7 @@ export const LINKTREE_LINKS = [
     },
     {
         label: "Vibe on Spotify!",
-        url: "https://open.spotify.com/artist/4APfaKKTUYeoETKFP4HCTy"
+        url: "https://open.spotify.com/track/3Cynv63p3EfKlcySoUp64r"
     },
     {
         label: "Vibe on Apple Music!",
@@ -38,7 +38,8 @@ export const MUSIC_ENTRIES = [
         title: "Vibe",
         coverImage: vibeCover,
         links: {
-            spotify: "https://open.spotify.com/album/5msywNUlsgVsfSGOgEeDYU",
+            spotifyEmbedded: "https://open.spotify.com/embed/track/3Cynv63p3EfKlcySoUp64r",
+            spotify: "https://open.spotify.com/track/3Cynv63p3EfKlcySoUp64r",
             apple: "https://music.apple.com/us/album/vibe-single/1713030118",
             soundcloud: "https://soundcloud.com/entropy-hill/vibe",
             deezer: "",
