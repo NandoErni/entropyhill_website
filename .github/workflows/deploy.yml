@@ -4,6 +4,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - run: cd my-app
       - run: node --version
       - run: npm --version
       - uses: actions/checkout@v4
