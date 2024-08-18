@@ -8,6 +8,7 @@ import FullScreenContainer from "./components/FullScreenContainer";
 import Dots from "./components/Dots"
 import MusicPage from "./pages/Music/MusicPage";
 import ContactPage from "./pages/Contact/ContactPage";
+import 'react-awesome-slider/dist/custom-animations/scale-out-animation.css';
 
 function App() {
 
@@ -29,7 +30,7 @@ function App() {
         <FullScreenContainer>
             <AwesomeSlider onTransitionStart={(page) => setSelected(page.nextIndex)}
                            bullets={false} selected={selected} fillParent={true}
-                           animation="openAnimation">
+                           animation="scaleOutAnimation">
                 {pages}
             </AwesomeSlider>
             <Dots numberOfPages={pages.length} currentPage={selected} onClickHandler={(page) => setSelected(page)}/>

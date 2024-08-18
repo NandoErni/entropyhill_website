@@ -10,7 +10,7 @@ function MusicPage() {
             <FullScreenImg src={image}/>
             <Container>
                 <Title>Music</Title>
-                <CenteredChildrenContainer>
+                <CenteredChildrenContainer style={{marginBottom: '20%'}}>
 
                     {MUSIC_ENTRIES.map((entry, i) => (
                         <MusicCard title={entry.title}

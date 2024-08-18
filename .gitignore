@@ -128,3 +128,10 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+.DS_Store
+.idea/.gitignore
+.idea/entropyhill_website.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+my-app/package-lock.json

@@ -8,7 +8,7 @@ function SocialMediaPanel({isBig}) {
             {
                 SOCIAL_MEDIA_ACCOUNTS.map(({network, url}, i) => (
                     
-                    <SocialMediaLink url={url} network={network} seconds={1 + i * 0.3} isBig={isBig}/>
+                    <SocialMediaLink key={i} url={url} network={network} seconds={1 + i * 0.3} isBig={isBig}/>
                 ))
             }
         </SocialMediaContainer>
