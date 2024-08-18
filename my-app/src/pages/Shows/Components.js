@@ -2,14 +2,14 @@ import styled from 'styled-components'
 
 export const Card = styled.div`
   margin: 40px auto;
-  background: #30303070;
   color: white;
-  border-radius: 10px;
+  background: #30303070;
   padding: 20px;
   height: 100px;
   max-height: 600px;
-  width: 80%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 80px 0 rgba(0, 0, 0, 0.8), 0 60px 200px 0 rgba(0, 0, 0, 0.8);
 
   -webkit-transition: background-color 120ms linear;
   -ms-transition: background-color 120ms linear;
@@ -35,17 +35,8 @@ export const VenueContainer = styled.div`
 `
 
 export const Link = styled.a`
-  margin: auto;
-  color: white;
   text-decoration: none;
-  border: 2px solid grey;
-  border-radius: 7px;
-  padding: 10px;
-
-  -webkit-transition: background-color 100ms linear;
-  -ms-transition: background-color 100ms linear;
-  transition: background-color 100ms linear;
-  &:hover {
-    background: gray;
-  }
+  color: inherit;
+  outline: 0;
+  cursor: pointer;
 `

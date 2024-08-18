@@ -6,7 +6,8 @@ function ShowCard({datetime, venue, location, linkForMore}) {
 
     return (
         <Card>
-            <div style={{width: '70%', height: '100%', float: 'left'}}>
+            <Link href={linkForMore} target={'_blank'}>
+                
                 <DateContainer>
                     {datetime.toLocaleDateString("de-CH", options)}
                 </DateContainer>
@@ -16,14 +17,7 @@ function ShowCard({datetime, venue, location, linkForMore}) {
                 <LocationContainer>
                     {location}
                 </LocationContainer>
-            </div>
-
-            <div style={{width: '30%', height: '100%', display: 'flex', float: 'right', textAlign: 'center', justifyContent: "center"}}>
-
-                <Link href={linkForMore} target={'_blank'}>
-                    More
-                </Link>
-            </div>
+            </Link>
         </Card>
     )
 }

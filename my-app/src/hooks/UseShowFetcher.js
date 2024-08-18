@@ -13,7 +13,7 @@ function useShowFetcher(artistName) {
     const [shows, setShows] = useState([])
 
     async function fetchShows() {
-        const eventsResponse = await fetch(getEventsUrl(BANDS_IN_TOWN_APP_ID, true))
+        const eventsResponse = await fetch(getEventsUrl(BANDS_IN_TOWN_APP_ID, false))
         const events = await eventsResponse.json()
         setShows(events)
     }
