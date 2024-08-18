@@ -18,7 +18,7 @@ function TriangleLogo({size}) {
             const newX = event.clientX
             const newY = event.clientY
 
-            setMousePos({ x: event.clientX, y: event.clientY })
+            setMousePos({ x: newX, y: newY })
         };
 
         window.addEventListener('mousemove', handleMouseMove);
@@ -74,7 +74,8 @@ function MoveableTriangle({image, moveMultiplyer, move}) {
 const Container = styled.div`
   position: relative;
   height: ${p => p.size}vh;
-  width: 100vw;
+  transition: height 600ms ease-in-out;
+  width: 100%;
 `
 
 

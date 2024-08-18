@@ -10,6 +10,7 @@ export const CenteredMainTitle = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: 5px 5px 5px black;
+  width: 100vw;
 `
 
 export const FadeInContainer = styled.div`
