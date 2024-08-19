@@ -18,7 +18,7 @@ function HomePage() {
             
             <div style={{
                 position: "absolute",
-                bottom: "15vh",
+                bottom: "10dvh",
                 left: "50%",
                 transform: "translate(-50%, -50%)",
                 width: "100vw"

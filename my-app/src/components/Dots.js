@@ -9,7 +9,6 @@ const DotsContainer = styled.div`
   margin: 20px;
   @media only screen and (max-width: 768px) {
     /* For mobile: */
-    bottom: 12%;
     left: 50%;
     transform: translateX(-84%);
   }
