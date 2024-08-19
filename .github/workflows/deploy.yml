@@ -19,7 +19,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: nandoerni.com
+          server: ftp.entropyhill.com
           username: ${{ secrets.PROD_FTP_USERNAME }}
           password: ${{ secrets.PROD_FTP_PASSWORD }}
           local-dir: "my-app/build/"
