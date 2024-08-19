@@ -7,7 +7,8 @@ jobs:
       - run: node --version
       - run: npm --version
       - uses: actions/checkout@v4
-      - run: cd $GITHUB_WORKSPACE/my-app
+      - run: cd $GITHUB_WORKSPACE
+      - run: cd my-app
       - run: ls
       - run: npm install
       - name: build application
