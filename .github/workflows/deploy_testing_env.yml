@@ -1,4 +1,4 @@
-name: Deploy to production server via ftp
+name: Deploy to test server via ftp
 on: workflow_dispatch
 jobs:
   deploy:
@@ -19,8 +19,8 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: entropyhill.com
-          username: ${{ secrets.PROD_FTP_USERNAME }}
-          password: ${{ secrets.PROD_FTP_PASSWORD }}
+          server: nandoerni.com
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
           local-dir: "my-app/build/"
-          server-dir: "/"
+          server-dir: "entropyhill/"
