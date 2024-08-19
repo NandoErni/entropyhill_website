@@ -11,6 +11,7 @@ jobs:
         working-directory: ./my-app
         run: npm install
       - name: build application
+        working-directory: ./my-app
         run: npm run build
         env:
           CI: false
