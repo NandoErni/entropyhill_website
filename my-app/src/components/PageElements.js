@@ -8,7 +8,7 @@ export const CenteredChildrenContainer = styled.div`
 `
 
 export const Container = styled.div`
-  height: 100vh;
+  height: 100dvh;
   width: 100vw;
   margin: 0;
   position: absolute;
@@ -71,7 +71,7 @@ export const FullScreenImg = styled.img`
   }
 
   @media only screen and (orientation: portrait) {
-    height: 100vh;
+    height: 100dvh;
   }
 `
 
