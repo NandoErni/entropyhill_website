@@ -1,12 +1,9 @@
 import { Container, Title, Stat, StatLink, Stats, SubSubTitle, SubTitle, Biography, Member, Members, FlexContainer, Image, ImageGallery, Diskography, Song, SongAudio, SongCoverArt, SongTitle } from "./Components";
 import { MUSIC_ENTRIES } from "../../config"
-import { useState } from "react";
 import { RowsPhotoAlbum } from "react-photo-album";
 import "react-photo-album/rows.css";
 
 function ElectronicPressKit() {
-    const [index, setIndex] = useState(-1);
-
     const images = [
         { src: "https://entropyhill.com/media/img/band/wall_portrait.jpeg", width: 4000, height: 6000 },
         { src: "https://entropyhill.com/media/img/band/wall_landscape.jpeg", width: 6000, height: 4000 },
