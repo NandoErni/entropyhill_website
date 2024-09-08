@@ -4,6 +4,9 @@ import styled from "styled-components";
 export const CenteredChildrenContainer = styled.div`
   text-align: center;
   justify-content: center;
+  gap: 50px;
+  display: flex;
+  flex-wrap: wrap;
   
 `
 

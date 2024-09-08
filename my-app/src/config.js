@@ -1,4 +1,5 @@
 import vibeCover from "./img/releases/cover.jpg";
+import vibeAudio from "./audio/Vibe.mp3";
 
 export const BANDS_IN_TOWN_APP_ID = "01d637208fbf5f3be242f58ab29268be"
 
@@ -37,6 +38,7 @@ export const MUSIC_ENTRIES = [
     {
         title: "Vibe",
         coverImage: vibeCover,
+        musicFile: vibeAudio,
         links: {
             spotifyEmbedded: "https://open.spotify.com/embed/track/3Cynv63p3EfKlcySoUp64r",
             spotify: "https://open.spotify.com/track/3Cynv63p3EfKlcySoUp64r",
@@ -44,8 +46,93 @@ export const MUSIC_ENTRIES = [
             soundcloud: "https://soundcloud.com/entropy-hill/vibe",
             deezer: "",
             tidal: ""
-        }
-    }
+        },
+        isReleased: true
+    },
+    {
+        title: "Seele",
+        coverImage: vibeCover,
+        musicFile: vibeAudio,
+        links: {
+            spotifyEmbedded: "",
+            spotify: "",
+            apple: "",
+            soundcloud: "",
+            deezer: "",
+            tidal: ""
+        },
+        isReleased: false
+    },
+    {
+        title: "Poison",
+        coverImage: vibeCover,
+        musicFile: vibeAudio,
+        links: {
+            spotifyEmbedded: "",
+            spotify: "",
+            apple: "",
+            soundcloud: "",
+            deezer: "",
+            tidal: ""
+        },
+        isReleased: false
+    },
+    {
+        title: "Gesicht verloren, Neues gefunden",
+        coverImage: vibeCover,
+        musicFile: vibeAudio,
+        links: {
+            spotifyEmbedded: "",
+            spotify: "",
+            apple: "",
+            soundcloud: "",
+            deezer: "",
+            tidal: ""
+        },
+        isReleased: false
+    },
+    {
+        title: "Der Fährenmann",
+        coverImage: vibeCover,
+        musicFile: vibeAudio,
+        links: {
+            spotifyEmbedded: "",
+            spotify: "",
+            apple: "",
+            soundcloud: "",
+            deezer: "",
+            tidal: ""
+        },
+        isReleased: false
+    },
+    {
+        title: "Nicht Zuhause",
+        coverImage: vibeCover,
+        musicFile: vibeAudio,
+        links: {
+            spotifyEmbedded: "",
+            spotify: "",
+            apple: "",
+            soundcloud: "",
+            deezer: "",
+            tidal: ""
+        },
+        isReleased: false
+    },
+    {
+        title: "Tsüüüüüüriii",
+        coverImage: vibeCover,
+        musicFile: vibeAudio,
+        links: {
+            spotifyEmbedded: "",
+            spotify: "",
+            apple: "",
+            soundcloud: "",
+            deezer: "",
+            tidal: ""
+        },
+        isReleased: false
+    },
 ]
 
 export const SOCIAL_MEDIA_ACCOUNTS = [
