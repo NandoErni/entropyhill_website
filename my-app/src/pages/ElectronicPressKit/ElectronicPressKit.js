@@ -1,12 +1,4 @@
 import { Container, Title, Stat, StatLink, Stats, SubSubTitle, SubTitle, Biography, Member, Members, FlexContainer, Image, ImageGallery, Diskography, Song, SongAudio, SongCoverArt, SongTitle } from "./Components";
-import wall_portrait from "../../img/band/wall_portrait.jpeg"
-import wall_landscape from "../../img/band/wall_landscape.jpeg"
-import outside from "../../img/band/outside.jpeg"
-import stairs from "../../img/band/stairs.jpeg"
-import bruno from "../../img/band/single/bruno.png"
-import lisa from "../../img/band/single/lisa.png"
-import nando from "../../img/band/single/nando.png"
-import tiziano from "../../img/band/single/tiziano.png"
 import { MUSIC_ENTRIES } from "../../config"
 import { useState } from "react";
 import { RowsPhotoAlbum } from "react-photo-album";
@@ -16,17 +8,17 @@ function ElectronicPressKit() {
     const [index, setIndex] = useState(-1);
 
     const images = [
-        { src: wall_portrait, width: 4000, height: 6000 },
-        { src: wall_landscape, width: 6000, height: 4000 },
-        { src: outside, width: 6000, height: 4000 },
-        { src: stairs, width: 3888, height: 5856 },
+        { src: "https://entropyhill.com/media/img/band/wall_portrait.jpeg", width: 4000, height: 6000 },
+        { src: "https://entropyhill.com/media/img/band/wall_landscape.jpeg", width: 6000, height: 4000 },
+        { src: "https://entropyhill.com/media/img/band/outside.jpeg", width: 6000, height: 4000 },
+        { src: "https://entropyhill.com/media/img/band/stairs.jpeg", width: 3888, height: 5856 },
 
     ];
     const memberImages = [
-        { src: bruno, width: 550, height: 550, memberName: "Bruno Bender" },
-        { src: lisa, width: 550, height: 550, memberName: "Lisa Schifferle" },
-        { src: nando, width: 550, height: 550, memberName: "Nando Erni" },
-        { src: tiziano, width: 550, height: 550, memberName: "Tiziano Sommacal" },
+        { src: "https://entropyhill.com/media/img/band/single/bruno.png", width: 550, height: 550, memberName: "Bruno Bender" },
+        { src: "https://entropyhill.com/media/img/band/single/lisa.png", width: 550, height: 550, memberName: "Lisa Schifferle" },
+        { src: "https://entropyhill.com/media/img/band/single/nando.png", width: 550, height: 550, memberName: "Nando Erni" },
+        { src: "https://entropyhill.com/media/img/band/single/tiziano.png", width: 550, height: 550, memberName: "Tiziano Sommacal" },
     ];
     return (
         <Container>
@@ -34,7 +26,7 @@ function ElectronicPressKit() {
             <SubTitle>Electronic Press Kit</SubTitle>
             <br /><hr /><br /><br />
             <FlexContainer>
-                <Image src={wall_landscape} />
+                <Image src={"https://entropyhill.com/media/img/band/wall_landscape.jpeg"} />
                 <Stats>
                     <Stat>Entropy Hill</Stat>
                     <Stat>Founded in 2021</Stat>
