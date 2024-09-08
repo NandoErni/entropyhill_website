@@ -9,6 +9,11 @@ export const Container = styled.div`
   font-weight: lighter;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
+  overflow-y: scroll;
+
+  @media print {
+    color: #202020;
+  }
 `;
 
 export const FlexContainer = styled.div`
@@ -67,6 +72,7 @@ export const Stats = styled.ul`
   margin: 20px;
   list-style-type: circle;
   min-width: 250px;
+  word-break: normal;
 `;
 
 export const Stat = styled.li`
@@ -94,6 +100,11 @@ export const Member = styled.div`
   padding: 5px;
 
   transform: translate(-50%, -50%);
+
+  @media print {
+    background-color: #00000000;
+    color: white;
+  }
 `;
 
 export const Biography = styled.div`
@@ -104,7 +115,7 @@ export const Biography = styled.div`
 `;
 
 export const ImageGallery = styled.div`
-  max-width: 80%;
+  max-width: 90%;
   margin: auto;
 `;
 export const Diskography = styled.div`
@@ -122,6 +133,9 @@ export const Song = styled.div`
   align-items: center;
   text-align: center;
   margin: 30px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 `;
 
 export const SongTitle = styled.div`
@@ -131,10 +145,17 @@ export const SongTitle = styled.div`
 export const SongAudio = styled.source`
   flex: 5;
   margin: auto 10px;
+  @media print {
+    display: none;
+  }
 `;
 export const SongCoverArt = styled.a`
   flex: 1;
   color: white;
   margin: auto 10px;
   white-space: nowrap;
+
+  @media print {
+    display: none;
+  }
 `;
