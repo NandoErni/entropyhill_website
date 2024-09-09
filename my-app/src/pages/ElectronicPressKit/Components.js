@@ -37,7 +37,7 @@ export const SubTitle = styled.h2`
   margin: auto;
   width: 100%;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
 
