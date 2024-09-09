@@ -159,3 +159,8 @@ export const SongCoverArt = styled.a`
     display: none;
   }
 `;
+
+export const ReleaseDate = styled.div`
+  flex: 2;
+  margin: auto 10px;
+`;

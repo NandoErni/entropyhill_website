@@ -46,7 +46,8 @@ export const MUSIC_ENTRIES = [
             deezer: "",
             tidal: ""
         },
-        isReleased: true
+        isReleased: true,
+        releaseDate: new Date(2023, 9, 27)
     },
     {
         title: "Seele",
@@ -60,7 +61,8 @@ export const MUSIC_ENTRIES = [
             deezer: "",
             tidal: ""
         },
-        isReleased: false
+        isReleased: false,
+        releaseDate: new Date(2024, 9, 11)
     },
     {
         title: "Poison",
@@ -74,7 +76,8 @@ export const MUSIC_ENTRIES = [
             deezer: "",
             tidal: ""
         },
-        isReleased: false
+        isReleased: false,
+        releaseDate: new Date(2024, 10, 1)
     },
     {
         title: "Gesicht verloren, Neues gefunden",
@@ -88,35 +91,8 @@ export const MUSIC_ENTRIES = [
             deezer: "",
             tidal: ""
         },
-        isReleased: false
-    },
-    {
-        title: "Der Fährenmann",
-        coverImage: vibeCover,
-        musicFile: "https://entropyhill.com/media/audio/vibe.mp3",
-        links: {
-            spotifyEmbedded: "",
-            spotify: "",
-            apple: "",
-            soundcloud: "",
-            deezer: "",
-            tidal: ""
-        },
-        isReleased: false
-    },
-    {
-        title: "Nicht Zuhause",
-        coverImage: vibeCover,
-        musicFile: "https://entropyhill.com/media/audio/vibe.mp3",
-        links: {
-            spotifyEmbedded: "",
-            spotify: "",
-            apple: "",
-            soundcloud: "",
-            deezer: "",
-            tidal: ""
-        },
-        isReleased: false
+        isReleased: false,
+        releaseDate: new Date(2024, 10, 29)
     },
     {
         title: "Tsüüüüüüriii",
@@ -130,7 +106,38 @@ export const MUSIC_ENTRIES = [
             deezer: "",
             tidal: ""
         },
-        isReleased: false
+        isReleased: false,
+        releaseDate: new Date(2024, 11, 20)
+    },
+    {
+        title: "Der Fährenmann",
+        coverImage: vibeCover,
+        musicFile: "https://entropyhill.com/media/audio/vibe.mp3",
+        links: {
+            spotifyEmbedded: "",
+            spotify: "",
+            apple: "",
+            soundcloud: "",
+            deezer: "",
+            tidal: ""
+        },
+        isReleased: false,
+        releaseDate: new Date(2025, 0, 10)
+    },
+    {
+        title: "Nicht Zuhause",
+        coverImage: vibeCover,
+        musicFile: "https://entropyhill.com/media/audio/vibe.mp3",
+        links: {
+            spotifyEmbedded: "",
+            spotify: "",
+            apple: "",
+            soundcloud: "",
+            deezer: "",
+            tidal: ""
+        },
+        isReleased: false,
+        releaseDate: new Date(2025, 0, 31)
     },
 ]
 
