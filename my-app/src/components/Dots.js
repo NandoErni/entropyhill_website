@@ -32,13 +32,13 @@ const Dot = styled.div`
   }
 `
 
-function Dots({numberOfPages, currentPage, onClickHandler}) {
-    return (
-        <DotsContainer>
-            {[...Array(numberOfPages)].map((e, i) =>
-                <Dot onClick={() => onClickHandler(i)} selected={i === currentPage} key={i}/>)}
-        </DotsContainer>
-    )
+function Dots({ numberOfPages, currentPage, onClickHandler }) {
+  return (
+    <DotsContainer>
+      {[...Array(numberOfPages)].map((e, i) =>
+        <Dot onClick={() => onClickHandler(i)} selected={i === currentPage} key={i} />)}
+    </DotsContainer>
+  )
 }
 
 export default Dots

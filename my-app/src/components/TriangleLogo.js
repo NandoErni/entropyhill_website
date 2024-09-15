@@ -9,7 +9,7 @@ import triangle_7 from '../img/triangle-logo/Triangle_8.png'
 import styled from 'styled-components'
 import { useEffect, useState, useRef } from 'react';
 
-function TriangleLogo({size}) {
+function TriangleLogo({ size }) {
     const [mousePos, setMousePos] = useState({});
     const triangleRef = useRef()
 
@@ -36,11 +36,11 @@ function TriangleLogo({size}) {
 
     if (triangleRef.current !== undefined) {
         const boundingTriangle = triangleRef.current.getBoundingClientRect()
-        const xCenter = boundingTriangle.x + boundingTriangle.width/2
-        const yCenter = boundingTriangle.y + boundingTriangle.height/2
+        const xCenter = boundingTriangle.x + boundingTriangle.width / 2
+        const yCenter = boundingTriangle.y + boundingTriangle.height / 2
 
-        xDir = -(mousePos.x - xCenter)/10
-        yDir = -(mousePos.y - yCenter)/10
+        xDir = -(mousePos.x - xCenter) / 10
+        yDir = -(mousePos.y - yCenter) / 10
     }
 
     const triangles = [
@@ -56,18 +56,18 @@ function TriangleLogo({size}) {
     return (
         <Container ref={triangleRef} size={size}>
             {triangles.map((image, index) =>
-                <MoveableTriangle image={image} moveMultiplyer={(1+index)/50} move={{x: xDir, y: yDir}} key={index}/>
+                <MoveableTriangle image={image} moveMultiplyer={(1 + index) / 50} move={{ x: xDir, y: yDir }} key={index} />
             )}
         </Container>
     )
 }
 
-function MoveableTriangle({image, moveMultiplyer, move}) {
+function MoveableTriangle({ image, moveMultiplyer, move }) {
     return (
         <Image src={image} style={{
-            top: (move.y*moveMultiplyer) + "%",
-            left: (50 + (move.x*moveMultiplyer)) + "%"
-        }}/>
+            top: (move.y * moveMultiplyer) + "%",
+            left: (50 + (move.x * moveMultiplyer)) + "%"
+        }} />
     )
 }
 
@@ -77,6 +77,7 @@ const Container = styled.div`
   transition: height 600ms ease-in-out;
   width: 100%;
 `
+
 
 
 const Image = styled.img`

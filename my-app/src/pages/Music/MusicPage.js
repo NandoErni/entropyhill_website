@@ -7,7 +7,7 @@ function MusicPage() {
 
     return (
         <>
-            <FullScreenImg src={image} />
+            <FullScreenImg src={"https://entropyhill.com/media/img/band/wall_landscape.jpeg"} />
             <Container>
                 <Title>Music</Title>
                 <CenteredChildrenContainer>

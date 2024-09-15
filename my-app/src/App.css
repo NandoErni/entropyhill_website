@@ -1,14 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap&family=Lato:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Asap&family=Lato:wght@300&display=swap");
 * {
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
+
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
 }
 
 body {
-    margin: 0;
-    height: 100dvh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
+  margin: 0;
+  height: 100dvh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
 
-    background: #050505
+  background: #050505;
+}
+
+.awssld__controls {
+  --slider-height-percentage: 60%;
+  --slider-transition-duration: 500ms;
+  --organic-arrow-thickness: 10px;
+  --organic-arrow-border-radius: 10px;
+  --organic-arrow-height: 80px;
+  --organic-arrow-color: white;
+  --control-button-width: 10%;
+  --control-button-height: 25%;
+  --loader-bar-height: 12px;
 }
