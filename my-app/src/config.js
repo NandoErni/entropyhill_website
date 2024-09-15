@@ -51,8 +51,8 @@ export const MUSIC_ENTRIES = [
     },
     {
         title: "Seele",
-        coverImage: vibeCover,
-        musicFile: "https://entropyhill.com/media/audio/vibe.mp3",
+        coverImage: undefined,
+        musicFile: "",
         links: {
             spotifyEmbedded: "",
             spotify: "",
@@ -66,8 +66,8 @@ export const MUSIC_ENTRIES = [
     },
     {
         title: "Poison",
-        coverImage: vibeCover,
-        musicFile: "https://entropyhill.com/media/audio/vibe.mp3",
+        coverImage: undefined,
+        musicFile: "",
         links: {
             spotifyEmbedded: "",
             spotify: "",
@@ -81,8 +81,8 @@ export const MUSIC_ENTRIES = [
     },
     {
         title: "Gesicht verloren, Neues gefunden",
-        coverImage: vibeCover,
-        musicFile: "https://entropyhill.com/media/audio/vibe.mp3",
+        coverImage: undefined,
+        musicFile: "",
         links: {
             spotifyEmbedded: "",
             spotify: "",
@@ -96,8 +96,8 @@ export const MUSIC_ENTRIES = [
     },
     {
         title: "Tsüüüüüüriii",
-        coverImage: vibeCover,
-        musicFile: "https://entropyhill.com/media/audio/vibe.mp3",
+        coverImage: undefined,
+        musicFile: "",
         links: {
             spotifyEmbedded: "",
             spotify: "",
@@ -111,8 +111,8 @@ export const MUSIC_ENTRIES = [
     },
     {
         title: "Der Fährenmann",
-        coverImage: vibeCover,
-        musicFile: "https://entropyhill.com/media/audio/vibe.mp3",
+        coverImage: undefined,
+        musicFile: "",
         links: {
             spotifyEmbedded: "",
             spotify: "",
@@ -126,8 +126,8 @@ export const MUSIC_ENTRIES = [
     },
     {
         title: "Nicht Zuhause",
-        coverImage: vibeCover,
-        musicFile: "https://entropyhill.com/media/audio/vibe.mp3",
+        coverImage: undefined,
+        musicFile: "",
         links: {
             spotifyEmbedded: "",
             spotify: "",

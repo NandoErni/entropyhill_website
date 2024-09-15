@@ -149,8 +149,8 @@ export const SongAudio = styled.source`
     display: none;
   }
 `;
-export const SongCoverArt = styled.a`
-  flex: 1;
+export const SongResourceLink = styled.a`
+  flex: 0.5;
   color: white;
   margin: auto 10px;
   white-space: nowrap;

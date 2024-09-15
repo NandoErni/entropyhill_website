@@ -1,4 +1,4 @@
-import { Container, ReleaseDate, Title, Stat, StatLink, Stats, SubSubTitle, SubTitle, Biography, Member, Members, FlexContainer, Image, ImageGallery, Diskography, Song, SongAudio, SongCoverArt, SongTitle } from "./Components";
+import { Container, ReleaseDate, Title, Stat, StatLink, Stats, SubSubTitle, SubTitle, Biography, Member, Members, FlexContainer, Image, ImageGallery, Diskography, Song, SongAudio, SongResourceLink, SongTitle } from "./Components";
 import { MUSIC_ENTRIES } from "../../config"
 import { RowsPhotoAlbum } from "react-photo-album";
 import "react-photo-album/rows.css";
@@ -60,16 +60,11 @@ function ElectronicPressKit() {
                         photos={memberImages}
                         targetRowHeight="300"
                         render={{
-                            // render image selection icon
                             extras: (_, { index }) => (
                                 <Member>{memberImages[index].memberName}</Member>
                             ),
                         }}
                     />
-                    {/* <Member>Lisa Schifferle</Member>
-                    <Member>Nando Erni</Member>
-                    <Member>Bruno Bender</Member>
-                    <Member>Tiziano Sommacal</Member> */}
                 </Members>
                 <Biography>
                     <SubSubTitle>Biography</SubSubTitle>
@@ -131,7 +126,8 @@ function ElectronicPressKit() {
                                 entry.isReleased ?
                                     (<>
                                         <audio controls><SongAudio src={entry.musicFile} /></audio>
-                                        <SongCoverArt href={entry.coverImage} target="_blank">Cover Art</SongCoverArt>
+                                        <SongResourceLink href={entry.musicFile} download={entry.title + ".mp3"} target="_blank">MP3 File</SongResourceLink>
+                                        <SongResourceLink href={entry.coverImage} target="_blank">Cover Art</SongResourceLink>
                                     </>) :
                                     (<>
 
