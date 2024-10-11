@@ -1,4 +1,5 @@
 import vibeCover from "./img/releases/cover.jpg";
+import seeleCover from "./img/releases/seele_cover.png";
 
 export const BANDS_IN_TOWN_APP_ID = "01d637208fbf5f3be242f58ab29268be"
 
@@ -8,12 +9,12 @@ export const LINKTREE_LINKS = [
         url: "/"
     },
     {
-        label: "Vibe on Spotify!",
-        url: "https://open.spotify.com/track/3Cynv63p3EfKlcySoUp64r"
+        label: "Seele on Spotify!",
+        url: "https://open.spotify.com/track/5Fj0wKiFEU6sdkENsDqwAx"
     },
     {
-        label: "Vibe on Apple Music!",
-        url: "https://music.apple.com/artist/1713019741"
+        label: "Seele on Apple Music!",
+        url: "https://music.apple.com/us/album/seele/1769566342"
     },
     {
         label: "Shows",
@@ -51,17 +52,17 @@ export const MUSIC_ENTRIES = [
     },
     {
         title: "Seele",
-        coverImage: undefined,
-        musicFile: "",
+        coverImage: seeleCover,
+        musicFile: "https://entropyhill.com/media/audio/seele.mp3",
         links: {
-            spotifyEmbedded: "",
-            spotify: "",
-            apple: "",
+            spotifyEmbedded: "https://open.spotify.com/embed/track/5Fj0wKiFEU6sdkENsDqwAx",
+            spotify: "https://open.spotify.com/track/5Fj0wKiFEU6sdkENsDqwAx",
+            apple: "https://music.apple.com/us/album/seele/1769566342",
             soundcloud: "",
             deezer: "",
             tidal: ""
         },
-        isReleased: false,
+        isReleased: true,
         releaseDate: new Date(2024, 9, 11)
     },
     {

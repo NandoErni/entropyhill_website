@@ -12,7 +12,7 @@ function MusicPage() {
                 <Title>Music</Title>
                 <CenteredChildrenContainer>
 
-                    {MUSIC_ENTRIES.filter(entry => entry.isReleased).map((entry, i) => (
+                    {MUSIC_ENTRIES.filter(entry => entry.isReleased).reverse().map((entry, i) => (
                         <MusicCard title={entry.title}
                             coverImage={entry.coverImage}
                             links={entry.links}
