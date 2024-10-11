@@ -10,7 +10,7 @@ export const LINKTREE_LINKS = [
     },
     {
         label: "Seele on Spotify!",
-        url: "https://open.spotify.com/track/5Fj0wKiFEU6sdkENsDqwAx"
+        url: "https://open.spotify.com/track/5Fj0wKiFEU6sdkENsDqwAx?si=a749ef93e87b41c0"
     },
     {
         label: "Seele on Apple Music!",
@@ -56,7 +56,7 @@ export const MUSIC_ENTRIES = [
         musicFile: "https://entropyhill.com/media/audio/seele.mp3",
         links: {
             spotifyEmbedded: "https://open.spotify.com/embed/track/5Fj0wKiFEU6sdkENsDqwAx",
-            spotify: "https://open.spotify.com/track/5Fj0wKiFEU6sdkENsDqwAx",
+            spotify: "https://open.spotify.com/track/5Fj0wKiFEU6sdkENsDqwAx?si=a749ef93e87b41c0",
             apple: "https://music.apple.com/us/album/seele/1769566342",
             soundcloud: "",
             deezer: "",
