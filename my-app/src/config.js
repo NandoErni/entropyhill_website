@@ -45,7 +45,7 @@ export const MUSIC_ENTRIES = [
             spotify: "https://open.spotify.com/track/3Cynv63p3EfKlcySoUp64r",
             apple: "https://music.apple.com/us/album/vibe-single/1713030118",
             soundcloud: "https://soundcloud.com/entropy-hill/vibe",
-            deezer: "",
+            deezer: "https://deezer.page.link/WYovjzhzaZvvZaxw6",
             tidal: ""
         },
         isReleased: true,
@@ -59,8 +59,8 @@ export const MUSIC_ENTRIES = [
             spotifyEmbedded: "https://open.spotify.com/embed/track/5Fj0wKiFEU6sdkENsDqwAx",
             spotify: "https://open.spotify.com/track/5Fj0wKiFEU6sdkENsDqwAx?si=a749ef93e87b41c0",
             apple: "https://music.apple.com/us/album/seele/1769566342",
-            soundcloud: "",
-            deezer: "",
+            soundcloud: "https://soundcloud.com/entropy-hill/seele",
+            deezer: "https://deezer.page.link/TKbJ2KX9mhZj8SaK9",
             tidal: ""
         },
         isReleased: true,
@@ -69,16 +69,16 @@ export const MUSIC_ENTRIES = [
     {
         title: "Poison",
         coverImage: poisonCover,
-        musicFile: "",
+        musicFile: "https://entropyhill.com/media/audio/poison.mp3",
         links: {
             spotifyEmbedded: "https://open.spotify.com/embed/track/5XjWVXIP0qVErtZVRZWOuf",
             spotify: "https://open.spotify.com/track/5XjWVXIP0qVErtZVRZWOuf?si=a36a1441d11444fe",
-            apple: "",
-            soundcloud: "",
+            apple: "https://music.apple.com/au/album/poison/1775115603?i=1775115604",
+            soundcloud: "https://soundcloud.com/entropy-hill/poison",
             deezer: "",
             tidal: ""
         },
-        isReleased: false,
+        isReleased: true,
         releaseDate: new Date(2024, 10, 1)
     },
     {
