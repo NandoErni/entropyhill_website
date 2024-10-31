@@ -1,5 +1,6 @@
 import vibeCover from "./img/releases/cover.jpg";
 import seeleCover from "./img/releases/seele_cover.png";
+import poisonCover from "./img/releases/poison_cover.jpg"
 
 export const BANDS_IN_TOWN_APP_ID = "01d637208fbf5f3be242f58ab29268be"
 
@@ -67,11 +68,11 @@ export const MUSIC_ENTRIES = [
     },
     {
         title: "Poison",
-        coverImage: undefined,
+        coverImage: poisonCover,
         musicFile: "",
         links: {
-            spotifyEmbedded: "",
-            spotify: "",
+            spotifyEmbedded: "https://open.spotify.com/embed/track/5XjWVXIP0qVErtZVRZWOuf",
+            spotify: "https://open.spotify.com/track/5XjWVXIP0qVErtZVRZWOuf?si=a36a1441d11444fe",
             apple: "",
             soundcloud: "",
             deezer: "",
