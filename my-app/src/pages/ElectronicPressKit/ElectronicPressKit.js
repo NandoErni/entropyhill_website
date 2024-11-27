@@ -123,7 +123,7 @@ function ElectronicPressKit() {
                             <SongTitle>{entry.title}</SongTitle>
 
                             {
-                                entry.isReleased ?
+                                entry.coverImage && entry.musicFile ?
                                     (<>
                                         <audio controls><SongAudio src={entry.musicFile} /></audio>
                                         <SongResourceLink href={entry.musicFile} download={entry.title + ".mp3"} target="_blank">MP3 File</SongResourceLink>

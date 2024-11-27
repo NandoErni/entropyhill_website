@@ -1,6 +1,7 @@
-import vibeCover from "./img/releases/cover.jpg";
+import vibeCover from "./img/releases/vibe_cover.jpg";
 import seeleCover from "./img/releases/seele_cover.png";
 import poisonCover from "./img/releases/poison_cover.jpg"
+import straassCover from "./img/releases/strass_cover.jpg"
 
 export const BANDS_IN_TOWN_APP_ID = "01d637208fbf5f3be242f58ab29268be"
 
@@ -82,9 +83,9 @@ export const MUSIC_ENTRIES = [
         releaseDate: new Date(2024, 10, 1)
     },
     {
-        title: "Gesicht verloren, Neues gefunden",
-        coverImage: undefined,
-        musicFile: "",
+        title: "Straass (Acoustic Version)",
+        coverImage: straassCover,
+        musicFile: "https://entropyhill.com/media/audio/straass.mp3",
         links: {
             spotifyEmbedded: "",
             spotify: "",
@@ -94,10 +95,10 @@ export const MUSIC_ENTRIES = [
             tidal: ""
         },
         isReleased: false,
-        releaseDate: new Date(2024, 10, 29)
+        releaseDate: new Date(2024, 11, 6)
     },
     {
-        title: "Tsüüüüüüriii",
+        title: "Keis Lied",
         coverImage: undefined,
         musicFile: "",
         links: {
@@ -140,6 +141,21 @@ export const MUSIC_ENTRIES = [
         },
         isReleased: false,
         releaseDate: new Date(2025, 0, 31)
+    },
+    {
+        title: "Lost my Face",
+        coverImage: undefined,
+        musicFile: "",
+        links: {
+            spotifyEmbedded: "",
+            spotify: "",
+            apple: "",
+            soundcloud: "",
+            deezer: "",
+            tidal: ""
+        },
+        isReleased: false,
+        releaseDate: new Date(2024, 1, 21)
     },
 ]
 
