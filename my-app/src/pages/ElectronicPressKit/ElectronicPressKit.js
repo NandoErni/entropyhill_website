@@ -67,43 +67,41 @@ function ElectronicPressKit() {
                     />
                 </Members>
                 <Biography>
-                    <SubSubTitle>Biography</SubSubTitle>
-                    Lorem ipsum odor amet, consectetuer adipiscing elit. Maecenas etiam velit quam efficitur fames.
-                    Varius curae suscipit consequat risus porttitor nulla aliquam.
-                    Blandit vel in ipsum bibendum natoque malesuada venenatis.
-                    Cursus lectus proin mollis mauris euismod leo.
-                    Fames placerat ultricies porta purus himenaeos odio velit.
-                    Tortor penatibus sagittis habitasse odio tincidunt ultricies?
-                    Auctor vel nisi non non lorem ac elit laoreet tellus.
+                    <SubSubTitle>Presse Text</SubSubTitle>
+                    Mit ihrer Frontsängerin Lisa steht die vierköpfige Band Entropy Hill für ehrliche,
+                    energetische Musik, die ihre Wurzeln in der Rockmusik der 70 und 80er Jahre und im Garage Rock hat.
+                    Mit einem unverwechselbaren Sound, geprägt von elektrischer Gitarre und dynamischen Arrangements,
+                    schaffen sie eine mitreißende Atmosphäre, die live wie auch auf Aufnahmen überzeugt.
                     <br />
                     <br />
-                    Ultricies senectus morbi cubilia magnis massa sollicitudin ultricies.
-                    Penatibus eleifend fringilla praesent cursus curabitur posuere lacinia lobortis posuere.
-                    Ad massa fermentum ante ullamcorper a nisi amet hendrerit eros?
-                    Natoque lacus commodo senectus volutpat fames urna neque.
-                    Tristique non dui fusce torquent turpis massa.
-                    Eu phasellus sociosqu hac mattis praesent.
-                    Ridiculus litora sit commodo commodo efficitur imperdiet elementum.
+                    Auf Plattformen wie Spotify, Apple Music und Co. haben sie mit ihren Songs „Vibe“,
+                    „Seele“ und „Poison“ auf sich aufmerksam gemacht.
+                    Derzeit steckt die Band mitten in den Vorbereitungen für neue Releases.
+                    Am 6.12. erscheint der Song 'Straass', ein Stück über die Kurzlebigkeit des Gefühls der Zufriedenheit.
                     <br />
                     <br />
-                    Sociosqu laoreet risus massa euismod nostra.
-                    Bibendum elit facilisi metus faucibus volutpat placerat.
-                    Praesent sed aliquet donec finibus enim parturient?
-                    Tempor dapibus magna, vehicula posuere montes tempor.
-                    Consectetur hac commodo magna; justo parturient quis amet magna.
-                    Porta luctus faucibus cubilia placerat rutrum gravida.
-                    Fringilla tincidunt nec duis habitasse dictum, nisi suscipit sapien?
-                    Congue fames nisi porttitor, nunc condimentum felis himenaeos adipiscing.
+                    Bis im Februar sind Releases geplant und danach geht es weiter:
+                    Die Band arbeitet intensiv an neuen Songs und nutzt die Zeit,
+                    um ihren Stil weiterzuentwickeln. „Das Aufnehmen hilft uns, unsere Musik auf das nächste Level zu bringen“,
+                    sagt Nando, der Gitarrist von Entropy Hill.
                     <br />
                     <br />
-                    Fringilla molestie auctor mattis nostra euismod efficitur ipsum.
-                    Nullam lobortis a praesent integer suspendisse gravida cubilia sollicitudin.
-                    Dapibus pellentesque maecenas ad pretium vulputate fames.
-                    Nec condimentum ridiculus; molestie senectus eros vehicula sem conubia.
-                    Porttitor nec posuere in quam velit senectus et felis.
-                    Augue condimentum quam nostra elit ullamcorper pulvinar?
-                    Facilisis fringilla nisi ipsum eu consequat.
-                    Sapien sapien posuere ac at massa duis.
+                    Nach erfolgreichen Auftritten in lokalen Bars und auf kleineren Festivals –
+                    sowie einem Beitrag auf Radio Lora – strebt die Band nun nach größeren Bühnen und Festivals.
+                    Im Februar stehen die nächsten Konzerte an: Entropy Hill spielt im KultA APA in Olten und im Lok.al in Winterthur.
+                    <br />
+                    <br />
+                    Mit ihrer Leidenschaft für Musik haben sich die Vier fest vorgenommen,
+                    ein größeres Publikum zu erreichen und dabei weiterhin Musik zu machen,
+                    in der sie sich ausleben können.
+                    <br />
+                    <br />
+                    Weitere Informationen und Musik finden Sie auf der <StatLink href="https://entropyhill.com">Website</StatLink>.
+                    <br />
+                    <br />
+                    Kontakt für Anfragen: <br />
+                    Nando Erni <br />
+                    <StatLink href="mailto:booking@entropyhill.com">booking@entropyhill.com</StatLink>
                 </Biography>
             </FlexContainer>
             <SubSubTitle>Images</SubSubTitle>
