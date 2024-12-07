@@ -4,6 +4,7 @@ import MusicCard from "./MusicCard";
 import { MUSIC_ENTRIES } from "../../config";
 
 function MusicPage() {
+    const now = new Date()
 
     return (
         <>
@@ -12,7 +13,7 @@ function MusicPage() {
                 <Title>Music</Title>
                 <CenteredChildrenContainer>
 
-                    {MUSIC_ENTRIES.filter(entry => entry.isReleased).reverse().map((entry, i) => (
+                    {MUSIC_ENTRIES.filter(entry => entry.releaseDate < now && entry.coverImage && entry.links.spotifyEmbedded).reverse().map((entry, i) => (
                         <MusicCard title={entry.title}
                             coverImage={entry.coverImage}
                             links={entry.links}

@@ -49,7 +49,6 @@ export const MUSIC_ENTRIES = [
             deezer: "https://deezer.page.link/WYovjzhzaZvvZaxw6",
             tidal: ""
         },
-        isReleased: true,
         releaseDate: new Date(2023, 9, 27)
     },
     {
@@ -64,7 +63,6 @@ export const MUSIC_ENTRIES = [
             deezer: "https://deezer.page.link/TKbJ2KX9mhZj8SaK9",
             tidal: ""
         },
-        isReleased: true,
         releaseDate: new Date(2024, 9, 11)
     },
     {
@@ -79,7 +77,6 @@ export const MUSIC_ENTRIES = [
             deezer: "",
             tidal: ""
         },
-        isReleased: true,
         releaseDate: new Date(2024, 10, 1)
     },
     {
@@ -94,7 +91,6 @@ export const MUSIC_ENTRIES = [
             deezer: "",
             tidal: ""
         },
-        isReleased: true,
         releaseDate: new Date(2024, 11, 6)
     },
     {
@@ -109,7 +105,6 @@ export const MUSIC_ENTRIES = [
             deezer: "",
             tidal: ""
         },
-        isReleased: false,
         releaseDate: new Date(2024, 11, 20)
     },
     {
@@ -124,7 +119,6 @@ export const MUSIC_ENTRIES = [
             deezer: "",
             tidal: ""
         },
-        isReleased: false,
         releaseDate: new Date(2025, 0, 10)
     },
     {
@@ -139,7 +133,6 @@ export const MUSIC_ENTRIES = [
             deezer: "",
             tidal: ""
         },
-        isReleased: false,
         releaseDate: new Date(2025, 0, 31)
     },
     {
@@ -154,7 +147,6 @@ export const MUSIC_ENTRIES = [
             deezer: "",
             tidal: ""
         },
-        isReleased: false,
         releaseDate: new Date(2024, 1, 21)
     },
 ]
