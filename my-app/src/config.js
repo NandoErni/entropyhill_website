@@ -87,14 +87,14 @@ export const MUSIC_ENTRIES = [
         coverImage: straassCover,
         musicFile: "https://entropyhill.com/media/audio/straass.mp3",
         links: {
-            spotifyEmbedded: "",
-            spotify: "",
-            apple: "",
-            soundcloud: "",
+            spotifyEmbedded: "https://open.spotify.com/embed/track/7qLuxVGkMX6HwHabFlkQ6p",
+            spotify: "https://open.spotify.com/track/7qLuxVGkMX6HwHabFlkQ6p?si=3945ccf2c8c64f62",
+            apple: "https://music.apple.com/us/album/straass-acoustic-version/1782639463?i=1782639464",
+            soundcloud: "https://soundcloud.com/entropy-hill/straass-acoustic-verison",
             deezer: "",
             tidal: ""
         },
-        isReleased: false,
+        isReleased: true,
         releaseDate: new Date(2024, 11, 6)
     },
     {
