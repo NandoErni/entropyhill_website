@@ -1,27 +1,13 @@
 name: Deploy to production server via ftp
 on: workflow_dispatch
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    environment: production
-    steps:
-      - run: node --version
-      - run: npm --version
-      - uses: actions/checkout@v4
-      - name: Install node dependencies
-        working-directory: ./my-app
-        run: npm install
-      - name: build application
-        working-directory: ./my-app
-        run: npm run build
-        env:
-          CI: false
-
-      - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ftp.entropyhill.com
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: "my-app/build/"
-          server-dir: "/"
+  deploy_to_production:
+    name: Deploy to Production
+    uses: ./.github/workflows/deployment_workflow.yml
+    with:
+      environment: "production"
+  deploy_to_testing:
+    name: Deploy to Testing
+    uses: ./.github/workflows/deployment_workflow.yml
+    with:
+      environment: "testing"
