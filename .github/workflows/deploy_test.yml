@@ -3,6 +3,7 @@ on: workflow_dispatch
 jobs:
   deploy:
     name: Deploy to Testing
+    secrets: inherit
     uses: ./.github/workflows/deployment_workflow.yml
     with:
       environment: "Test"
