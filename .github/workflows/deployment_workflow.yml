@@ -10,7 +10,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: ${{inputs.environment}}
+    environment: Test
     steps:
       - run: node --version
       - run: npm --version
