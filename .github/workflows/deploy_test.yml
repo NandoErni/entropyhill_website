@@ -1,4 +1,4 @@
-name: Deploy via FTP
+name: Deploy to Testing via FTP
 on: workflow_dispatch
 jobs:
   deploy:
