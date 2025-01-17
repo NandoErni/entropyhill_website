@@ -1,5 +1,5 @@
-name: Deploy to production server via ftp
-on: workflow_dispatch
+name: Deploy via FTP
+on: workflow_call
 jobs:
   deploy_to_production:
     name: Deploy to Production
