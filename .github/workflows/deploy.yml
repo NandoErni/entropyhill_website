@@ -5,9 +5,9 @@ jobs:
     name: Deploy to Production
     uses: ./.github/workflows/deployment_workflow.yml
     with:
-      environment: "production"
+      environment: "Production"
   deploy_to_testing:
     name: Deploy to Testing
     uses: ./.github/workflows/deployment_workflow.yml
     with:
-      environment: "testing"
+      environment: "Test"
