@@ -93,62 +93,6 @@ export const MUSIC_ENTRIES = [
         },
         releaseDate: new Date(2024, 11, 6)
     },
-    {
-        title: "Keis Lied",
-        coverImage: undefined,
-        musicFile: "",
-        links: {
-            spotifyEmbedded: "",
-            spotify: "",
-            apple: "",
-            soundcloud: "",
-            deezer: "",
-            tidal: ""
-        },
-        releaseDate: new Date(2024, 11, 20)
-    },
-    {
-        title: "Der Fährenmann",
-        coverImage: undefined,
-        musicFile: "",
-        links: {
-            spotifyEmbedded: "",
-            spotify: "",
-            apple: "",
-            soundcloud: "",
-            deezer: "",
-            tidal: ""
-        },
-        releaseDate: new Date(2025, 0, 10)
-    },
-    {
-        title: "Nicht Zuhause",
-        coverImage: undefined,
-        musicFile: "",
-        links: {
-            spotifyEmbedded: "",
-            spotify: "",
-            apple: "",
-            soundcloud: "",
-            deezer: "",
-            tidal: ""
-        },
-        releaseDate: new Date(2025, 0, 31)
-    },
-    {
-        title: "Lost my Face",
-        coverImage: undefined,
-        musicFile: "",
-        links: {
-            spotifyEmbedded: "",
-            spotify: "",
-            apple: "",
-            soundcloud: "",
-            deezer: "",
-            tidal: ""
-        },
-        releaseDate: new Date(2024, 1, 21)
-    },
 ]
 
 export const SOCIAL_MEDIA_ACCOUNTS = [

@@ -37,7 +37,7 @@ function ElectronicPressKit() {
                 <Stats>
                     <Stat>Entropy Hill</Stat>
                     <Stat>Founded in 2021</Stat>
-                    <Stat>Entropic Wave Music / Alternative Rock</Stat>
+                    <Stat>Larger-Than-Life Entropic Wave Rock / Alternative Rock</Stat>
                     <Stat><StatLink href="https://mx3.ch/entropyhill" target="_blank">MX3</StatLink></Stat>
                     <Stat>
                         <StatLink href="https://www.instagram.com/entropy_hill/" target="_blank">Instagram</StatLink>,
@@ -48,7 +48,7 @@ function ElectronicPressKit() {
                         <StatLink href="https://open.spotify.com/artist/4APfaKKTUYeoETKFP4HCTy" target="_blank">Spotify</StatLink>,
                         <StatLink href="https://music.apple.com/us/artist/entropy-hill/1713019741" target="_blank"> Apple Music</StatLink>
                     </Stat>
-                    <Stat>Appeared on <StatLink href="https://www.lora.ch/radio/ausgaben/ch-block-dj-leo-2023-12-22" target="_blank">Radio LoRa</StatLink></Stat>
+                    <Stat>Appeared on <StatLink href="https://www.lora.ch/radio/ausgaben/ch-block-dj-leo-2023-12-22" target="_blank">Radio LoRa</StatLink> and <StatLink href='https://stadtfilter.ch/' target='_blank'>Stadtfilter</StatLink></Stat>
                     <Stat><StatLink href="https://entropyhill.com" target="_blank">Website</StatLink></Stat>
                 </Stats>
             </FlexContainer>
