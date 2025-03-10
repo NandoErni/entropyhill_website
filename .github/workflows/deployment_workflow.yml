@@ -1,8 +1,16 @@
-name: Deploy to test server via ftp
-on: workflow_dispatch
+name: Deployment Workflow
+
+on:
+  workflow_call:
+    inputs:
+      environment:
+        required: true
+        type: string
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: '${{ inputs.environment }}'
     steps:
       - run: node --version
       - run: npm --version
@@ -19,8 +27,8 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: nandoerni.com
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          server: ftp.entropyhill.com
+          username: '${{ secrets.FTP_USERNAME }}'
+          password: '${{ secrets.FTP_PASSWORD }}'
           local-dir: "my-app/build/"
-          server-dir: "entropyhill/"
+          server-dir: "/"
