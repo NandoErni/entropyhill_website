@@ -37,7 +37,7 @@ function ElectronicPressKit() {
                 <Stats>
                     <Stat>Entropy Hill</Stat>
                     <Stat>Founded in 2021</Stat>
-                    <Stat>Larger-Than-Life Entropic Wave Rock / Alternative Rock</Stat>
+                    <Stat>No Excuses Entropic Wave Rock / Alternative Rock</Stat>
                     <Stat><StatLink href="https://mx3.ch/entropyhill" target="_blank">MX3</StatLink></Stat>
                     <Stat>
                         <StatLink href="https://www.instagram.com/entropy_hill/" target="_blank">Instagram</StatLink>,
