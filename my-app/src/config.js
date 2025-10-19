@@ -11,12 +11,12 @@ export const LINKTREE_LINKS = [
         url: "/"
     },
     {
-        label: "Seele on Spotify!",
-        url: "https://open.spotify.com/track/5Fj0wKiFEU6sdkENsDqwAx?si=a749ef93e87b41c0"
+        label: "Straass on Spotify!",
+        url: "https://open.spotify.com/track/7qLuxVGkMX6HwHabFlkQ6p"
     },
     {
-        label: "Seele on Apple Music!",
-        url: "https://music.apple.com/us/album/seele/1769566342"
+        label: "Straass on Apple Music!",
+        url: "https://music.apple.com/us/album/seele/1782639463"
     },
     {
         label: "Shows",

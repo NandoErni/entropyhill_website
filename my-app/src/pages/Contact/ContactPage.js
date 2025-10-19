@@ -9,7 +9,7 @@ function ContactPage() {
             <FullScreenImg src={image}/>
             <Container>
                 <Title>Contact us</Title>
-                <div style={{alignItems: 'center', textAlign: 'center'}}>
+                <div style={{alignItems: 'center', textAlign: 'center', wordBreak: 'break-word'}}>
                     <div style={{fontWeight: 'bold'}}>Band Management, Booking, etc.</div>
                     <br/>
                     Nando Erni
